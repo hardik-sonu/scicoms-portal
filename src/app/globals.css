@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #00113a;
+    --primary-container: #002366;
+    --on-primary: #ffffff;
+    --secondary: #705d00;
+    --secondary-container: #fcd400;
+    --secondary-fixed: #ffe16d;
+    --surface: #f8f9ff;
+    --surface-bright: #f8f9ff;
+    --surface-dim: #cbdbf5;
+    --surface-container-lowest: #ffffff;
+    --surface-container-low: #eff4ff;
+    --surface-container: #e5eeff;
+    --surface-container-high: #dce9ff;
+    --surface-container-highest: #d3e4fe;
+    --on-surface: #0b1c30;
+    --on-surface-variant: #444650;
+    --outline: #757682;
+    --outline-variant: #c5c6d2;
+  }
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 35, 102, 0.08);
+  box-shadow: 0 4px 24px rgba(0, 35, 102, 0.04);
+}
+
+.glass-card-dark {
+  background: rgba(0, 17, 58, 0.85);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.scicoms-gradient {
+  background: linear-gradient(135deg, #00113a 0%, #002366 50%, #001239 100%);
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #ffd700 0%, #e9c400 100%);
+}
+
+.academic-badge {
+  background: #fcd400;
+  color: #221b00;
+  font-weight: 700;
+  border-radius: 9999px;
+  padding: 2px 10px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #eff4ff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c5c6d2;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #757682;
+}
