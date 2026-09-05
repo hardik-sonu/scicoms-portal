@@ -79,7 +79,7 @@ export default function LeadershipPage() {
         <div className="border-b border-[#00113a]/10 pb-3">
           <h2 className="font-serif font-bold text-2xl text-[#00113a] flex items-center gap-2">
             <GraduationCap className="w-6 h-6 text-[#002366]" />
-            <span>Executive Cabinet (2025 - 2026)</span>
+            <span>Executive Cabinet (2026 - 2027)</span>
           </h2>
         </div>
 

@@ -83,7 +83,7 @@ export default function HomePage() {
           {/* Key Metrics Banner */}
           <div className="pt-12 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
             <div className="bg-white/80 backdrop-blur-sm p-4 rounded-xs border border-[#00113a]/10 text-center shadow-xs">
-              <div className="font-serif font-bold text-2xl sm:text-3xl text-[#00113a]">1,500+</div>
+              <div className="font-serif font-bold text-2xl sm:text-3xl text-[#00113a]">50+</div>
               <div className="text-[11px] text-[#705d00] uppercase font-bold tracking-wider mt-0.5">Active Scholars</div>
             </div>
             <div className="bg-white/80 backdrop-blur-sm p-4 rounded-xs border border-[#00113a]/10 text-center shadow-xs">
@@ -91,7 +91,7 @@ export default function HomePage() {
               <div className="text-[11px] text-[#705d00] uppercase font-bold tracking-wider mt-0.5">Journal Papers</div>
             </div>
             <div className="bg-white/80 backdrop-blur-sm p-4 rounded-xs border border-[#00113a]/10 text-center shadow-xs">
-              <div className="font-serif font-bold text-2xl sm:text-3xl text-[#00113a]">25+</div>
+              <div className="font-serif font-bold text-2xl sm:text-3xl text-[#00113a]">20+</div>
               <div className="text-[11px] text-[#705d00] uppercase font-bold tracking-wider mt-0.5">Annual Events</div>
             </div>
             <div className="bg-white/80 backdrop-blur-sm p-4 rounded-xs border border-[#00113a]/10 text-center shadow-xs">
@@ -317,7 +317,7 @@ export default function HomePage() {
             <div key={t.id} className="bg-white border border-[#00113a]/10 rounded-sm p-6 shadow-xs flex flex-col justify-between space-y-4">
               <Quote className="w-8 h-8 text-[#002366]/20" />
               <p className="text-xs text-[#444650] leading-relaxed italic">
-                "{t.quote}"
+                {t.quote}
               </p>
               <div className="flex items-center gap-3 pt-3 border-t border-slate-100">
                 <img src={t.avatar} alt={t.name} className="w-10 h-10 rounded-full object-cover" />

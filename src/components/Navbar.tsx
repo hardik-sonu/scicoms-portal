@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { 
   BookOpen, 
@@ -78,8 +79,13 @@ export default function Navbar() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex items-center justify-between">
         {/* Brand Logo & Name */}
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="w-10 h-10 rounded-sm bg-[#00113a] text-[#ffd700] flex items-center justify-center font-bold text-xl shadow-md border border-[#ffd700]/30 group-hover:scale-105 transition-transform">
-            SC
+          <div className="w-10 h-10 rounded-sm overflow-hidden relative shrink-0 shadow-md border border-[#ffd700]/30 group-hover:scale-105 transition-transform">
+            <Image
+              src="/images/branding/scicoms-logo.png"
+              alt="SciComS Logo"
+              fill
+              className="object-cover"
+            />
           </div>
           <div>
             <div className="font-bold text-lg text-[#00113a] tracking-tight leading-none font-serif flex items-center gap-1">

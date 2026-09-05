@@ -120,7 +120,7 @@ export default function ContactPage() {
                 <Mail className="w-5 h-5 text-[#ffd700] shrink-0" />
                 <div>
                   <span className="font-bold text-white block">Email:</span>
-                  <span>scicoms@pu.edu.pk</span>
+                  <span>scicoms.imme.pu.2.0@gmail.com</span>
                 </div>
               </div>
 
@@ -128,7 +128,7 @@ export default function ContactPage() {
                 <Phone className="w-5 h-5 text-[#ffd700] shrink-0" />
                 <div>
                   <span className="font-bold text-white block">Phone:</span>
-                  <span>+92 (42) 9923 1261 (Ext: 104)</span>
+                  <span>+92 323 7301986 </span>
                 </div>
               </div>
             </div>
